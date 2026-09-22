@@ -63,6 +63,7 @@ El flujo de trabajo modular en GEE se estructura en cuatro bloques temáticos es
   * **Metodología:** Filtra la colección `COPERNICUS/S1_GRD` (modo IW, polarización VH) en periodos pre-sismo (`2026-06-01` a `2026-06-23`) y post-sismo (`2026-06-24` a `2026-07-05`). Calcula la diferencia logarítmica de retrodispersión ($\Delta \sigma^0$) y aplica un umbral binario estricto:
     $$\Delta \sigma^0 = 10 \cdot \log_{10}(\sigma^0_{\text{post}}) - 10 \cdot \log_{10}(\sigma^0_{\text{pre}}) < -3.0\text{ dB}$$
   * **Salida:** Despliegue dinámico en el Dashboard de GEE y exportación asíncrona GeoTIFF a Google Drive en proyección UTM Zona 20N (`EPSG:32620`).
+  * **Enlace directo a GEE Code Editor:** [Abrir Script 01 en Google Earth Engine](https://code.earthengine.google.com/?scriptPath=users/lsigma_usb/la_guaira_2026:01_mapbiomas_baseline_extraction)
 
 * **`src/02_procesamiento_sentinel1_damage_laguaira_multiclass.js`**
   * **Objetivo:** Clasificación jerárquica de severidad de daños mediante árboles de decisión sobre la firma radiométrica SAR.
