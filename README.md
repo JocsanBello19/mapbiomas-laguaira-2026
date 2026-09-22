@@ -72,7 +72,7 @@ El flujo de trabajo modular en GEE se estructura en cuatro bloques temáticos es
     * **Nivel 2 (Daño Severo):** $-2.5\text{ dB} \ge \Delta \sigma^0 > -3.5\text{ dB}$ *(Flujos de detritos y remociones en masa intermedias)*.
     * **Nivel 3 (Catastrófico):** $\Delta \sigma^0 \le -3.5\text{ dB}$ *(Deslizamientos profundos y colapso de infraestructura)*.
   * **Salida:** Mapa ráster multiclase clasificado (`.tif`) exportado a Google Drive.
-  * **Enlace directo a GEE Code Editor:** [Abrir Script 01 en Google Earth Engine](https://code.earthengine.google.com/d708458a1b75699f53b9b2a7a4474175)
+  * **Enlace directo a GEE Code Editor:** [Abrir Script 02 en Google Earth Engine](https://code.earthengine.google.com/d708458a1b75699f53b9b2a7a4474175)
 ---
 
 #### 2. Sectorización y Discriminación de Cobertura
@@ -80,7 +80,7 @@ El flujo de trabajo modular en GEE se estructura en cuatro bloques temáticos es
 * **`src/03_analisis_vulnerabilidad_Urbana_Terreno_LaGuaira.js`**
   * **Objetivo:** Disociación matricial de la huella sísmica entre zonas de infraestructura urbana edificada y terrenos naturales no arbolados.
   * **Metodología:** Cruza el ráster de anomalía SAR ($\Delta \sigma^0 < -3.0\text{ dB}$) con las clases urbanas y construidas de MapBiomas Colección 3 (Clases `24` - Uso Urbano y `25` - Otras Áreas Antrópicas Sin Vegetación)[cite: 4], aislándolas de coberturas forestales o cuerpos de agua (Clases `26` y `33`)[cite: 4]. Incluye máscaras específicas para evaluar la infraestructura del Aeropuerto Internacional Simón Bolívar de Maiquetía.
-  * **Enlace directo a GEE Code Editor:** [Abrir Script 02 en Google Earth Engine](https://code.earthengine.google.com/d1a5fc6e013218ea2f94f6ac5b6501c3)
+  * **Enlace directo a GEE Code Editor:** [Abrir Script 03 en Google Earth Engine](https://code.earthengine.google.com/d1a5fc6e013218ea2f94f6ac5b6501c3)
 
 * **`src/06_evaluacion_integral_danos_LaGuaira.js`**
   * **Objetivo:** Cuantificación multitemática automatizada de la superficie afectada por el sismo según la tipología de cobertura de la Colección 3[cite: 4].
@@ -92,7 +92,7 @@ El flujo de trabajo modular en GEE se estructura en cuatro bloques temáticos es
     5. **Uso Urbano:** Clase 24 (Infraestructura y tejido urbano)[cite: 4].
     6. **Otras Zonas Antrópicas:** Clases 22, 23, 25, 30[cite: 4].
   * **Salida:** Generación de gráficos comparativos (`ui.Chart`) y exportación de tablas tabuladas en `.csv`.
-  * **Enlace directo a GEE Code Editor:** [Abrir Script 02 en Google Earth Engine](https://code.earthengine.google.com/38ba1ba67263062a32589620f445796c)
+  * **Enlace directo a GEE Code Editor:** [Abrir Script 04 en Google Earth Engine](https://code.earthengine.google.com/38ba1ba67263062a32589620f445796c)
 
 ---
 
