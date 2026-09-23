@@ -120,7 +120,16 @@ El flujo de trabajo modular en GEE se estructura en cuatro bloques temáticos es
 
 ---
 
-#### 4. Trayectorias Históricas y Dinámicas de Antropización (1985–2024)
+#### 4. División Parroquial, Trayectorias Históricas y Dinámicas de Antropización (1985–2024)
+
+* **`src/04_analisis_vulnerabilidad_Parroquial_LaGuaira.js`**
+  * **Objetivo:** Cuantificación y cruce espacial de alta resolución entre el daño estructural co-sísmico inmediato (detectado mediante anomalías SAR Sentinel-1) y las áreas de infraestructura urbana e intervención antrópica previamente consolidadas, desagregando los resultados a escala político-territorial por parroquia en el Estado La Guaira.
+  * **Componentes Metodológicos y Fuentes de Datos:**
+    * **Detección de Anomalías SAR:** Estimación de la diferencia logarítmica del coeficiente de retrodispersión ($\Delta \sigma^0 < -3.0\text{ dB}$) en polarización VH a partir de imágenes Sentinel-1 IW GRD entre las ventanas pre-sismo (15/05/2026 – 23/06/2026) y post-sismo (24/06/2026 – 06/07/2026).
+    * **Máscara Urbana e Infraestructura Base:** Aislamiento de la huella construida previa al sismo mediante la combinación de las clases 24 (Uso urbano) y 25 (Otras áreas antrópicas sin vegetación) de la Colección 3 de MapBiomas Venezuela (año 2024).
+    * **Límite Político-Territorial Oficial:** Cuantificación zonal en hectáreas (ha) por polígono parroquial integrando el asset vectorial oficial del Instituto Nacional de Tierras (INTI) para las 11 parroquias del Estado La Guaira.
+    * **Salidas Geoespaciales e Interfaz:** Generación automática de gráficos estadísticos zonales, exportación de tablas (CSV), capas ráster codificadas a 10 m de resolución en EPSG:4326 (GeoTIFF) y archivos vectoriales (SHP) listos para interoperabilidad en ArcMap/ArcGIS.
+  * **Enlace directo a GEE Code Editor:** [Abrir Script 04 en Google Earth Engine](https://code.earthengine.google.com/e7e9f466e06cd2ba796b8f4f9a07943e)
 
 * **`src/09_evaluacion_sismica_periodos_urbanizacion_LaGuaira.js`**
   * **Objetivo:** Análisis cruzado entre la severidad del daño co-sísmico y la época de primera intervención antrópica detectada a lo largo de los 40 años de la serie MapBiomas (1985–2024)[cite: 4].
