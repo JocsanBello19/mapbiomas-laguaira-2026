@@ -104,11 +104,13 @@ El flujo de trabajo modular en GEE se estructura en cuatro bloques temáticos es
     * *Plano / Suave:* $0^\circ - 15^\circ$
     * *Moderado:* $15^\circ - 30^\circ$
     * *Crítico / Escarpado:* $> 30^\circ$
+  * **Enlace directo a GEE Code Editor:** [Abrir Script 05 en Google Earth Engine](https://code.earthengine.google.com/0d198b2af2293d8353ffb301e76494af)
 
 * **`src/07_evaluacion_matriz_pendiente_cobertura_LaGuaira.js`**
   * **Objetivo:** Evaluación cruzada multivariada ($4\text{ clases de pendiente ALOS AW3D30} \times 6\text{ subcategorías LULC MapBiomas}$)[cite: 4].
   * **Clasificación del Terreno (ALOS):** $0^\circ-10^\circ$ (Suave), $10^\circ-25^\circ$ (Moderada), $25^\circ-45^\circ$ (Escarpada), $>45^\circ$ (Abrupta / Acantilados de la Cordillera de la Costa).
   * **Salida:** Matriz de hectáreas afectadas desplegada mediante gráficos de columnas apiladas y reportes CSV.
+  * **Enlace directo a GEE Code Editor:** [Abrir Script 07 en Google Earth Engine](https://code.earthengine.google.com/ae7200ae499f93ecaa9e8c8a1bce3346)
 
 * **`src/08_evaluacion_sismica_urban_HAND_LaGuaira.js`**
   * **Objetivo:** Modelado de susceptibilidad hidro-geomórfica y potencial licuefacción sísmica en el frente urbano costero utilizando el modelo *Height Above the Nearest Drainage* (HAND, 30m).
@@ -116,6 +118,7 @@ El flujo de trabajo modular en GEE se estructura en cuatro bloques temáticos es
     * **Riesgo Crítico (Saturación / Licuefacción):** $0 - 3\text{ m}$
     * **Riesgo Moderado (Llanuras aluviales / Ventanas de inundación):** $3 - 6\text{ m}$
     * **Riesgo Bajo (Terrazas consolidadas):** $> 6\text{ m}$
+    * **Enlace directo a GEE Code Editor:** [Abrir Script 08 en Google Earth Engine](https://code.earthengine.google.com/d0109a83d4a8be7648626830b33f3463)
 
 ---
 
@@ -128,6 +131,7 @@ El flujo de trabajo modular en GEE se estructura en cuatro bloques temáticos es
     * **Períodos 2 a 4 (1986–2000):** Crecimiento acelerado previo a la Tragedia de Vargas (1999)[cite: 4].
     * **Período 5 (2001–2005):** Obras de reconstrucción post-desastre y canalizaciones[cite: 4].
     * **Períodos 6 a 9 (2006–2024):** Ocupación reciente e inestable en vertientes no aptas[cite: 4].
+    * **Enlace directo a GEE Code Editor:** [Abrir Script 09 en Google Earth Engine](https://code.earthengine.google.com/8cd2ebbbc4dfa27d807637ba2d07e126)
 
 * **`src/10_analisis_trayectorias_antropizacion_SAR_LaGuaira.js`**
   * **Objetivo:** Reconstrucción espacio-temporal pixel a pixel (1985–2005–2014–2024)[cite: 4] para identificar trayectorias de degradación y ocupación inestable.
@@ -137,7 +141,7 @@ El flujo de trabajo modular en GEE se estructura en cuatro bloques temáticos es
     * **T3 (Núcleo Urbano Consolidado):** Infraestructura estable registrada de forma continua durante $>40$ años[cite: 4].
     * **T4 (Expansión Urbana Reciente):** Ocupación inestable en vertientes escarpadas post-2014[cite: 4].
     * **T5 (Ocupación Post-Tragedia):** Consolidación urbana realizada en la ventana 1985–2005[cite: 4].
-
+    * **Enlace directo a GEE Code Editor:** [Abrir Script 10 en Google Earth Engine](https://code.earthengine.google.com/61cce6c24d91d160fdc396da7e872d38)
 ---
 
 ## 💻 Requisitos e Instalación
