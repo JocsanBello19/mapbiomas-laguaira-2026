@@ -13,8 +13,6 @@
 
 Este repositorio contiene la arquitectura completa de procesamiento geoespacial e hidro-geomorfológico desarrollada en **Google Earth Engine (GEE)** para la evaluación multicriterio de daños co-sísmicos, vulnerabilidad topográfica, riesgo hidro-geomórfico y trayectorias históricas de antropización en el Estado La Guaira, Venezuela[cite: 4].
 
-La investigación se enmarca metodológicamente en las contribuciones del **Laboratorio de Sistemas de Información Geográfica y Modelado Ambiental (LSIGMA-USB)** de la Universidad Simón Bolívar, institución nodo responsable del procesamiento de las regiones del norte del Orinoco dentro de la iniciativa **MapBiomas Venezuela**[cite: 4].
-
 El estudio integra la serie histórica multitemporal de **MapBiomas Venezuela Colección 3 (1985–2024)**[cite: 4] a 30 m de resolución (basada en clasificadores *Random Forest* y mosaicos Landsat[cite: 4]) como línea base ambiental previa al **doblete sísmico de junio de 2026**. Esta baseline se cruza con imágenes SAR de **Sentinel-1 (IW, polarización VH)** para mapear la alteración del terreno (remociones en masa y colapsos edilicios) bajo cobertura nubosa tropical[cite: 4].
 
 ---
@@ -154,6 +152,6 @@ El flujo de trabajo modular en GEE se estructura en cuatro bloques temáticos es
 
 ## 🏛️ Créditos y Referencias
 
-* **Desarrollo Geoespacial:** Laboratorio de Sistemas de Información Geográfica y Modelado Ambiental (LSIGMA-USB), Universidad Simón Bolívar.
+* **Apoyo en el Desarrollo Geoespacial:** Laboratorio de Sistemas de Información Geográfica y Modelado Ambiental (LSIGMA-USB), Universidad Simón Bolívar.
 * **Fuente de Datos:** MapBiomas Venezuela — Colección 3 (1985–2024)[cite: 4].
 * **Repositorio Oficial y Visor:** [https://venezuela.mapbiomas.org](https://venezuela.mapbiomas.org)[cite: 4]
