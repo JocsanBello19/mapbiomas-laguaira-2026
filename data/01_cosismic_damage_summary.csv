@@ -1,2 +1,2 @@
-metric_id,variable_name,value_ha,value_km2,relative_percentage,crs,spatial_resolution_m,date_assessed
-1,total_affected_area,2947.67169596177,29.4767169596177,100.00,EPSG:32620,30,2026-06-30
+id_metrica,nombre_variable,valor_ha,valor_km2,porcentaje_relativo,crs,resolucion_espacial_m,fecha_evaluacion
+1,area_total_afectada,2947.67169596177,29.4767169596177,100.00,EPSG:32620,30,2026-06-30
