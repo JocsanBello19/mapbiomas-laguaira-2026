@@ -153,7 +153,7 @@ El flujo de trabajo modular en GEE se estructura en cuatro bloques temáticos es
 ## 💻 Requisitos e Instalación
 
 1. **Cuenta en Google Earth Engine:** Se requiere acceso activo a la plataforma [Google Earth Engine](https://earthengine.google.com/).
-2. **Ejecución de Código:** Copie el código fuente de cualquier módulo ubicado en la carpeta `src/` e impleméntelo en el **Code Editor** de GEE (`code.earthengine.google.com`).
+2. **Ejecución de Código:** Copie el código fuente de cualquier módulo ubicado en la carpeta `gee_scripts/` e impleméntelo en el **Code Editor** de GEE (`code.earthengine.google.com`).
 3. **Gestión de Assets y Exportación:** Las salidas en formato GeoTIFF y las tablas tabuladas CSV se procesarán de forma asíncrona en la pestaña **Tasks** de GEE para su sincronización directa con Google Drive.
 
 ---
