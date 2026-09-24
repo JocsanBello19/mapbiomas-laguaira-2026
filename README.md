@@ -5,7 +5,7 @@
 [![EPSG:32620](https://img.shields.io/badge/CRS-UTM%20Zone%2020N-orange.svg)](https://epsg.io/32620)
 
 > **Cita Oficial de Datos Base:**  
-> *"MapBiomas – Colección 3 de la Serie Anual de Mapas de Cobertura y Uso del Suelo de Venezuela, consultada a través de https://venezuela.mapbiomas.org"* [cite: 4].
+> *"MapBiomas - Colección 3 de la Serie Anual de Mapas de Cobertura y Uso del Suelo de Venezuela, consultada el 24/08/2026 a través del enlace: https://venezuela.mapbiomas.org/"* [cite: 4].
 
 ---
 
