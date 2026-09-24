@@ -1,0 +1,5 @@
+nivel,descripcion,rango_sar_db,superficie_ha,porcentaje_relativo
+1,Leve / Alteracion superficial,-1.5 a -2.0,5619.235904045027,39.92
+2,Dano Moderado,-2.0 a -3.0,5509.732021175848,39.14
+3,Severo,<= -3.0,2947.6716959617706,20.94
+Total,Area Total Afectada,Todas las Categorias SAR,14076.639621182647,100.00
