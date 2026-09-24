@@ -76,7 +76,7 @@ El flujo de trabajo modular en GEE se estructura en cuatro bloques temáticos es
 
 * **`src/03_analisis_vulnerabilidad_Urbana_Terreno_LaGuaira.js`**
   * **Objetivo:** Disociación matricial de la huella sísmica entre zonas de infraestructura urbana edificada y terrenos naturales.
-  * **Metodología:** Cruza el ráster de anomalía SAR ($\Delta \sigma^0 < -3.0\text{ dB}$) con las clases urbanas y construidas de MapBiomas Colección 3 (Clases `24` - Uso Urbano y `25` - Otras Áreas Antrópicas Sin Vegetación), aislándolas de coberturas forestales y agropecuarias o cuerpos de agua (Clases `26` y `33`).
+  * **Metodología:** Cruza el ráster de anomalía SAR ($\Delta \sigma^0 <= -3.0\text{ dB}$) con las clases urbanas y construidas de MapBiomas Colección 3 (Clases `24` - Uso Urbano y `25` - Otras Áreas Antrópicas Sin Vegetación), aislándolas de coberturas forestales y agropecuarias o cuerpos de agua (Clases `26` y `33`).
   * **Enlace directo a GEE Code Editor:** [Abrir Script 03 en Google Earth Engine](https://code.earthengine.google.com/ba0cb0fc2738192c21f7e6c5d365e236)
 
 * **`src/06_evaluacion_integral_danos_LaGuaira.js`**
