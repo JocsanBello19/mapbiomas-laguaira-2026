@@ -160,6 +160,6 @@ El flujo de trabajo modular en GEE se estructura en cuatro bloques temáticos es
 
 ## 🏛️ Créditos y Referencias
 
-* **Apoyo en el Desarrollo Geoespacial:** Laboratorio de Sistemas de Información Geográfica y Modelado Ambiental (LSIGMA-USB), Universidad Simón Bolívar.
+* **Asesoría en el Desarrollo Geoespacial:** Laboratorio de Sistemas de Información Geográfica y Modelado Ambiental (LSIGMA-USB), Universidad Simón Bolívar.
 * **Fuente de Datos:** MapBiomas Venezuela — Colección 3 (1985–2024).
 * **Repositorio Oficial y Visor:** [https://venezuela.mapbiomas.org](https://venezuela.mapbiomas.org)
